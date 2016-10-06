@@ -1,0 +1,41 @@
+Reflections:
+
+Procedures involing strings:
+	with finding strings within strings
+	need to remember the idea of iteration
+	for updating the string with concatination,
+	decatination, or replacement by assigining
+	new segments or current segments to itself
+	example: //from <find_and_replace_7.py>
+
+	def apply_converter(converter, string):
+    previous = None
+    while previous != string:
+        previous = string
+        position = string.find(converter[0])
+        if position != -1:
+            string = string[:position] + converter[1] + string[position + len(converter[0]):] 
+    return string
+
+    example2: //from <remove_tages_professor.py>
+
+    def remove_tags(string):
+    start = string.find('<')
+    while start != -1:
+        end = string.find('>', start)
+        string = string[:start] + " " + string[end + 1:]
+        start = string.find('<')
+    return string.split()
+
+    it seems from the examples above that updating the variable
+    using find method is useful.
+
+2nd insight:
+    spend more time analizing and planing to solve porblems
+    then actually coding. Make code as reable as possible
+3rd insight
+    problems are not as complicating as they seem, look for simple
+    solutions. See if it makes since to use iteration or recurstion.
+    Read the whole problem several times.
+
+

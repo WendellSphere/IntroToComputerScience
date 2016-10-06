@@ -1,0 +1,53 @@
+We will use inverted index to search pages andd map
+links to keyword
+
+Functions:
+
+strings:
+<string>.split() 
+string[:], string[0:9}, string[0:-1], str1[0:3] + str2[4:6], str[::-1]
+str.find("marker"), str.find(word, word+1) 
+
+len(list), len(str)
+
+lists
+list.append(), list.append([]), list.append(1)
+list + list2 = list3
+list.pop() //removes final element from the list and reutrns value of it to
+           // the assigment
+
+loops/condtional
+for e in p
+while
+if not e in p
+
+Hash
+import Dictionary
+elements = {'hydro' : 1, 'kel', }
+print 'hydro' in elements   // prints 1
+element['lithium']   //assignment, gives random value
+element['lithium'] = 3  // updates value
+
+import time:
+to use time.clock() // current processer time in seconds
+eval(anystr)  // evulates any str as python code
+
+
+Networks - where 3 or more people are connected directely or indirectly. Ancient Greek soliders used smoke signals to warn other islands of invasions, etc
+
+Making a Network
+*way to encode and interpert messages
+---Greek:"Agamennon is arriving"
+---Internt: message -> bits-> electrons/phtons
+*way to route messages
+---"directing smoke signals"
+---Internet: routers figure out next hops
+*rules for deciding who gets to use resources
+---"generals have priority"
+---Internet: best effort service
+
+Mesauring Networks
+*Latency
+--time it takes message to get from source to destination ()
+*Bandwitdth 
+-- amount of info that can be transmitted per unit time
